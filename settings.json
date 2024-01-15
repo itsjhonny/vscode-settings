@@ -1,0 +1,76 @@
+{
+  // Editor
+  "editor.fontSize": 12,
+  "editor.fontFamily": "JetBrains Mono", //"Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.suggestSelection": "first",
+  "editor.accessibilitySupport": "off",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.parameterHints.enabled": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "editor.minimap.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.wordWrap": "on",
+  // Explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.sortOrder": "foldersNestsFiles",
+  "breadcrumbs.icons": false,
+  // Files
+  "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    "*.html": "go-template"
+  },
+  // Git
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  // Debug
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.toolBarLocation": "docked",
+  // Workbench
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.decorations.colors": false,
+  "workbench.startupEditor": "newUntitledFile",
+  // Window
+  "window.titleBarStyle": "native",
+  "window.zoomLevel": -1,
+  "window.commandCenter": true,
+  // Other
+  "telemetry.telemetryLevel": "off",
+  "update.mode": "start",
+  "security.workspace.trust.untrustedFiles": "open",
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.languageSettings": [],
+  "cSpell.autoFormatConfigFile": true,
+  "go.testFlags": [
+    "-count=1"
+  ],
+  "go.toolsManagement.autoUpdate": true,
+  // Language-specific settings
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  // Terminal
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.fontSize": 10,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "json.schemas": [
+    
+  ],
+}
