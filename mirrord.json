@@ -1,0 +1,21 @@
+{
+    "kubeconfig": "/Users/user/.kube/config",
+    "feature": {
+        "env": true,
+        "fs": "read",
+        "network": {
+            "incoming": {
+                "mode": "steal",
+                "http_header_filter": {
+                    "filter": "^access_token: TOKEN$",,
+                    "ports": [
+                        8080
+                    ]
+                },
+                "ignore_ports": [
+                    8081
+                ]
+            }
+        }
+    }
+}
