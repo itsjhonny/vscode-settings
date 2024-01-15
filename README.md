@@ -1,0 +1,2 @@
+# vscode-settings
+settings vscode
