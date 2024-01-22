@@ -1,7 +1,7 @@
 {
   // Editor
   "editor.fontSize": 12,
-  "editor.fontFamily": "JetBrains Mono", //"Fira Code",
+  "editor.fontFamily": "Fira Code", //"JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
@@ -18,7 +18,7 @@
   "editor.cursorBlinking": "smooth",
   "editor.minimap.enabled": true,
   "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairs": false,
   "editor.wordWrap": "on",
   // Explorer
   "explorer.compactFolders": false,
@@ -70,7 +70,6 @@
   "terminal.integrated.fontFamily": "Fira Code",
   "terminal.integrated.gpuAcceleration": "off",
   "terminal.integrated.defaultProfile.osx": "zsh",
-  "json.schemas": [
-    
-  ],
+  "json.schemas": [],
+  "workbench.colorTheme": "Firefox Dark",
 }
